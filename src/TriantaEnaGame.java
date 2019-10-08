@@ -130,7 +130,7 @@ public class TriantaEnaGame extends Game implements PlayerAction {
                 logger.msg("The game will have " + playerCountInput + " player(s) in the beginning.");
                 isPlayerValid = true;
             } else {
-                logger.displayInvalidMsgForRange(1, MAX_PLAYER);
+                logger.displayInvalidMsgForRange(2, MAX_PLAYER);
             }
         }
         this.playerCount = playerCountInput;
